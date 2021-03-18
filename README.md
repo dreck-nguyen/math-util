@@ -2,7 +2,7 @@
 ## Welcome to Math-Util repository. This repo offers various 
 math method that is your projects as the helper ones
 
-_ You will find in this repo :_
+_You will find in this repo :_
 * The README file itself to demonstrate the MARK DOWN syntax
 * .gitignore file itself to notify Git Tool how to upload source code
 * MathUtility class to offer various Math functions 
