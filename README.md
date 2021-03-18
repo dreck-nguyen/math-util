@@ -1,6 +1,4 @@
-
-## Welcome to Math-Util repository. This repo offers various 
-math method that is your projects as the helper ones
+## Welcome to Math-Util repository. This repo offers various math method that is your projects as the helper ones
 
 _You will find in this repo :_
 * The README file itself to demonstrate the MARK DOWN syntax
