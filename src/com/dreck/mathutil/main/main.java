@@ -16,7 +16,7 @@ public class main {
         long expected = 120;
         int input = 5; // đầu vào bằng 5
 
-        long acctual = getFactorial(input);
+       long acctual = getFactorial(input);
         System.out.println(input + "! Expected : " + expected + "; Actual : " + acctual);
         //case 2 : 0!
         expected = 1;
@@ -24,10 +24,7 @@ public class main {
         acctual = getFactorial(input);
         System.out.println(input + "! Expected : " + expected + "; Actual : " + acctual);
         //case 3 : -1!
-        expected = 0;
-        input = -1;
-        acctual = getFactorial(input);
-        System.out.println(input + "! Expected : " + expected + "; Actual : " + acctual);
+        
         
         // test bằng tay và kết luận, nhiều case thì dùng api
         // Test automation dung thư viện 

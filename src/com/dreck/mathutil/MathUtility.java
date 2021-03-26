@@ -17,11 +17,12 @@ public class MathUtility {
     //n!
     //0 < 20! boundaries..... 0! = 1;
     public static long getFactorial(int n) {
-        if (n < 0 || n > 20)    throw new IllegalArgumentException("Must be in the boundarie 0 < n <= 20");
+        //if (n < 0 || n > 20)    throw new IllegalArgumentException("Must be in the boundarie 0 < n <= 20");
         if (n == 0 || n == 1)   return 1;
-        long result = 1;
-        for (int i = 2; i <= n; i++)    result *= i;
-        return result;
+        //long result = 1;
+        //for (int i = 2; i <= n; i++)    result *= i;
+        
+        return n * getFactorial(n - 1);
     }
 
     
